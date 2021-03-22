@@ -1,0 +1,152 @@
+
+admin@aitslaba39 MINGW64 ~/Desktop/git
+$ ls
+
+admin@aitslaba39 MINGW64 ~/Desktop/git
+$ ls -a
+./  ../
+
+admin@aitslaba39 MINGW64 ~/Desktop/git
+$ touch a.txt
+
+admin@aitslaba39 MINGW64 ~/Desktop/git
+$ touch b.html
+
+admin@aitslaba39 MINGW64 ~/Desktop/git
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+admin@aitslaba39 MINGW64 ~/Desktop/git                                                   //GLOBAL RESPIRATORY
+$ git init
+Initialized empty Git repository in C:/Users/admin/Desktop/git/.git/                   // to get the link in the "github" create a respiratory name as: "sample"
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)                                       
+$ git status
+On branch master                                                                      
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        a.txt
+        b.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git add a.txt
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   a.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        b.html
+
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git add .
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   a.txt
+        new file:   b.html
+
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git commit -m "git first commit
+> "
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'admin@aitslaba39.(none)')
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git config user.name venkatesh
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git config user.email venkateswara662000@gmail.com
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git config user.name
+venkatesh
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git config user.email
+venkateswara662000@gmail.com
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git commit -m "git first commit"                                                         // CREATION OF GLOBAL RESPIRATORY
+[master (root-commit) 7d239e5] git first commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)                                          // to get the link in the "github" create a respiratory name as: "sample"
+ create mode 100644 a.txt
+ create mode 100644 b.html                                                                 // and click on add readme selection bar and click on settings and change the "main" to "Master"
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)                                            // and reopen the created repository and de-select the add readme and create repository.
+$ git remote add origin https://github.com/kvenkateswarareddy/sample.git                   
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git remote
+origin
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git push origin master
+
+
+venkerror: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Password for 'https://venkatesh@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kvenkateswarareddy/sample.git/'               //COPY THE LINK BY IN THE CREATED RESPIRATORY <>"CODE COPY THE LINK"
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ git push origin master
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 224 bytes | 224.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kvenkateswarareddy/sample.git
+ * [new branch]      master -> master
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ touch practice.txt
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$ ls
+a.txt  b.html  practice.txt
+
+admin@aitslaba39 MINGW64 ~/Desktop/git (master)
+$
